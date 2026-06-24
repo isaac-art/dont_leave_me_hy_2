@@ -1,0 +1,682 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A0000000000000000000201 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0000000000000000000101 /* Profile.swift */; };
+		2A0000000000000000000202 /* URIParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0000000000000000000102 /* URIParser.swift */; };
+		2A0000000000000000000203 /* AppGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0000000000000000000103 /* AppGroup.swift */; };
+		2A0000000000000000000204 /* HysteriaMobileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0000000000000000000104 /* HysteriaMobileApp.swift */; };
+		2A0000000000000000000205 /* ProfilesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0000000000000000000105 /* ProfilesView.swift */; };
+		2A0000000000000000000206 /* ProfileEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0000000000000000000106 /* ProfileEditView.swift */; };
+		2A0000000000000000000207 /* ImportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0000000000000000000107 /* ImportView.swift */; };
+		2A0000000000000000000208 /* QRScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0000000000000000000108 /* QRScannerView.swift */; };
+		2A0000000000000000000209 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0000000000000000000109 /* SettingsView.swift */; };
+		2A000000000000000000020A /* MobileStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A000000000000000000010A /* MobileStore.swift */; };
+		2A000000000000000000020B /* SingboxConfigBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A000000000000000000010B /* SingboxConfigBuilder.swift */; };
+		2A000000000000000000020C /* VPNManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A000000000000000000010C /* VPNManager.swift */; };
+		2A0000000000000000000220 /* HysteriaTunnel.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2A00000000000000000000D2 /* HysteriaTunnel.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2A0000000000000000000230 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A0000000000000000000130 /* Assets.xcassets */; };
+		2A0000000000000000000231 /* TunnelLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0000000000000000000131 /* TunnelLogView.swift */; };
+		2A0000000000000000000245 /* SharedState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0000000000000000000145 /* SharedState.swift */; };
+		2A0000000000000000000340 /* HysteriaWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0000000000000000000140 /* HysteriaWidgetBundle.swift */; };
+		2A0000000000000000000341 /* HysteriaWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0000000000000000000141 /* HysteriaWidget.swift */; };
+		2A0000000000000000000342 /* VPNIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0000000000000000000142 /* VPNIntents.swift */; };
+		2A0000000000000000000345 /* SharedState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0000000000000000000145 /* SharedState.swift */; };
+		2A0000000000000000000346 /* AppGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0000000000000000000103 /* AppGroup.swift */; };
+		2A0000000000000000000221 /* HysteriaWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2A00000000000000000000D3 /* HysteriaWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2A0000000000000000000301 /* PacketTunnelProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A000000000000000000010E /* PacketTunnelProvider.swift */; };
+		2A0000000000000000000302 /* PlatformInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A000000000000000000010F /* PlatformInterface.swift */; };
+		2A0000000000000000000303 /* RunBlocking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0000000000000000000110 /* RunBlocking.swift */; };
+		2A0000000000000000000304 /* AppGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0000000000000000000103 /* AppGroup.swift */; };
+		2A0000000000000000000310 /* Libbox.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A0000000000000000000113 /* Libbox.xcframework */; };
+		2A0000000000000000000311 /* Libbox.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2A0000000000000000000113 /* Libbox.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A00000000000000000000DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A0000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A00000000000000000000C2;
+			remoteInfo = HysteriaTunnel;
+		};
+		2A00000000000000000000DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A0000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A00000000000000000000C3;
+			remoteInfo = HysteriaWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2A00000000000000000000E4 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2A0000000000000000000220 /* HysteriaTunnel.appex in Embed App Extensions */,
+				2A0000000000000000000221 /* HysteriaWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A00000000000000000000E8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2A0000000000000000000311 /* Libbox.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2A0000000000000000000101 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		2A0000000000000000000102 /* URIParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URIParser.swift; sourceTree = "<group>"; };
+		2A0000000000000000000103 /* AppGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppGroup.swift; sourceTree = "<group>"; };
+		2A0000000000000000000104 /* HysteriaMobileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HysteriaMobileApp.swift; sourceTree = "<group>"; };
+		2A0000000000000000000105 /* ProfilesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilesView.swift; sourceTree = "<group>"; };
+		2A0000000000000000000106 /* ProfileEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditView.swift; sourceTree = "<group>"; };
+		2A0000000000000000000107 /* ImportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportView.swift; sourceTree = "<group>"; };
+		2A0000000000000000000108 /* QRScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerView.swift; sourceTree = "<group>"; };
+		2A0000000000000000000109 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		2A000000000000000000010A /* MobileStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileStore.swift; sourceTree = "<group>"; };
+		2A000000000000000000010B /* SingboxConfigBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingboxConfigBuilder.swift; sourceTree = "<group>"; };
+		2A000000000000000000010C /* VPNManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPNManager.swift; sourceTree = "<group>"; };
+		2A000000000000000000010D /* HysteriaManagerMobile.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HysteriaManagerMobile.entitlements; sourceTree = "<group>"; };
+		2A000000000000000000010E /* PacketTunnelProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacketTunnelProvider.swift; sourceTree = "<group>"; };
+		2A000000000000000000010F /* PlatformInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatformInterface.swift; sourceTree = "<group>"; };
+		2A0000000000000000000110 /* RunBlocking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunBlocking.swift; sourceTree = "<group>"; };
+		2A0000000000000000000111 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A0000000000000000000112 /* HysteriaTunnel.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HysteriaTunnel.entitlements; sourceTree = "<group>"; };
+		2A0000000000000000000113 /* Libbox.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Libbox.xcframework; sourceTree = "<group>"; };
+		2A0000000000000000000130 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A0000000000000000000131 /* TunnelLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TunnelLogView.swift; sourceTree = "<group>"; };
+		2A0000000000000000000140 /* HysteriaWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HysteriaWidgetBundle.swift; sourceTree = "<group>"; };
+		2A0000000000000000000141 /* HysteriaWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HysteriaWidget.swift; sourceTree = "<group>"; };
+		2A0000000000000000000142 /* VPNIntents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPNIntents.swift; sourceTree = "<group>"; };
+		2A0000000000000000000143 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A0000000000000000000144 /* HysteriaWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HysteriaWidget.entitlements; sourceTree = "<group>"; };
+		2A0000000000000000000145 /* SharedState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedState.swift; sourceTree = "<group>"; };
+		2A00000000000000000000D3 /* HysteriaWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = HysteriaWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A00000000000000000000D1 /* HysteriaManagerMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HysteriaManagerMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A00000000000000000000D2 /* HysteriaTunnel.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = HysteriaTunnel.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A00000000000000000000E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A00000000000000000000E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A0000000000000000000310 /* Libbox.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A00000000000000000000EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A0000000000000000000002 = {
+			isa = PBXGroup;
+			children = (
+				2A0000000000000000000005 /* App */,
+				2A0000000000000000000006 /* Core */,
+				2A0000000000000000000007 /* Tunnel */,
+				2A000000000000000000000A /* Widget */,
+				2A0000000000000000000008 /* Shared */,
+				2A0000000000000000000004 /* Frameworks */,
+				2A0000000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A0000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A00000000000000000000D1 /* HysteriaManagerMobile.app */,
+				2A00000000000000000000D2 /* HysteriaTunnel.appex */,
+				2A00000000000000000000D3 /* HysteriaWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A0000000000000000000004 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A0000000000000000000113 /* Libbox.xcframework */,
+			);
+			name = Frameworks;
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A0000000000000000000005 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2A0000000000000000000104 /* HysteriaMobileApp.swift */,
+				2A0000000000000000000105 /* ProfilesView.swift */,
+				2A0000000000000000000106 /* ProfileEditView.swift */,
+				2A0000000000000000000107 /* ImportView.swift */,
+				2A0000000000000000000108 /* QRScannerView.swift */,
+				2A0000000000000000000109 /* SettingsView.swift */,
+				2A0000000000000000000131 /* TunnelLogView.swift */,
+				2A000000000000000000010D /* HysteriaManagerMobile.entitlements */,
+				2A0000000000000000000130 /* Assets.xcassets */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		2A0000000000000000000006 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				2A000000000000000000010A /* MobileStore.swift */,
+				2A000000000000000000010B /* SingboxConfigBuilder.swift */,
+				2A000000000000000000010C /* VPNManager.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		2A0000000000000000000007 /* Tunnel */ = {
+			isa = PBXGroup;
+			children = (
+				2A000000000000000000010E /* PacketTunnelProvider.swift */,
+				2A000000000000000000010F /* PlatformInterface.swift */,
+				2A0000000000000000000110 /* RunBlocking.swift */,
+				2A0000000000000000000111 /* Info.plist */,
+				2A0000000000000000000112 /* HysteriaTunnel.entitlements */,
+			);
+			path = Tunnel;
+			sourceTree = "<group>";
+		};
+		2A0000000000000000000008 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				2A0000000000000000000101 /* Profile.swift */,
+				2A0000000000000000000102 /* URIParser.swift */,
+				2A0000000000000000000103 /* AppGroup.swift */,
+				2A0000000000000000000145 /* SharedState.swift */,
+			);
+			name = Shared;
+			path = ../Shared;
+			sourceTree = "<group>";
+		};
+		2A000000000000000000000A /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				2A0000000000000000000140 /* HysteriaWidgetBundle.swift */,
+				2A0000000000000000000141 /* HysteriaWidget.swift */,
+				2A0000000000000000000142 /* VPNIntents.swift */,
+				2A0000000000000000000143 /* Info.plist */,
+				2A0000000000000000000144 /* HysteriaWidget.entitlements */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A00000000000000000000C1 /* HysteriaManagerMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A00000000000000000000A3 /* Build configuration list for PBXNativeTarget "HysteriaManagerMobile" */;
+			buildPhases = (
+				2A00000000000000000000E1 /* Sources */,
+				2A00000000000000000000E2 /* Frameworks */,
+				2A00000000000000000000E3 /* Resources */,
+				2A00000000000000000000E4 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A00000000000000000000DA /* PBXTargetDependency */,
+				2A00000000000000000000DC /* PBXTargetDependency */,
+			);
+			name = HysteriaManagerMobile;
+			productName = HysteriaManagerMobile;
+			productReference = 2A00000000000000000000D1 /* HysteriaManagerMobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A00000000000000000000C2 /* HysteriaTunnel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A00000000000000000000A6 /* Build configuration list for PBXNativeTarget "HysteriaTunnel" */;
+			buildPhases = (
+				2A00000000000000000000E5 /* Sources */,
+				2A00000000000000000000E6 /* Frameworks */,
+				2A00000000000000000000E7 /* Resources */,
+				2A00000000000000000000E8 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HysteriaTunnel;
+			productName = HysteriaTunnel;
+			productReference = 2A00000000000000000000D2 /* HysteriaTunnel.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		2A00000000000000000000C3 /* HysteriaWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A00000000000000000000A9 /* Build configuration list for PBXNativeTarget "HysteriaWidgetExtension" */;
+			buildPhases = (
+				2A00000000000000000000E9 /* Sources */,
+				2A00000000000000000000EA /* Frameworks */,
+				2A00000000000000000000EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HysteriaWidgetExtension;
+			productName = HysteriaWidgetExtension;
+			productReference = 2A00000000000000000000D3 /* HysteriaWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A0000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					2A00000000000000000000C1 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					2A00000000000000000000C2 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					2A00000000000000000000C3 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 2A00000000000000000000A0 /* Build configuration list for PBXProject "HysteriaManagerMobile" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A0000000000000000000002;
+			productRefGroup = 2A0000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A00000000000000000000C1 /* HysteriaManagerMobile */,
+				2A00000000000000000000C2 /* HysteriaTunnel */,
+				2A00000000000000000000C3 /* HysteriaWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A00000000000000000000E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A0000000000000000000230 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A00000000000000000000E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A00000000000000000000EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A00000000000000000000E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A0000000000000000000204 /* HysteriaMobileApp.swift in Sources */,
+				2A0000000000000000000205 /* ProfilesView.swift in Sources */,
+				2A0000000000000000000206 /* ProfileEditView.swift in Sources */,
+				2A0000000000000000000207 /* ImportView.swift in Sources */,
+				2A0000000000000000000208 /* QRScannerView.swift in Sources */,
+				2A0000000000000000000209 /* SettingsView.swift in Sources */,
+				2A000000000000000000020A /* MobileStore.swift in Sources */,
+				2A000000000000000000020B /* SingboxConfigBuilder.swift in Sources */,
+				2A000000000000000000020C /* VPNManager.swift in Sources */,
+				2A0000000000000000000231 /* TunnelLogView.swift in Sources */,
+				2A0000000000000000000201 /* Profile.swift in Sources */,
+				2A0000000000000000000202 /* URIParser.swift in Sources */,
+				2A0000000000000000000203 /* AppGroup.swift in Sources */,
+				2A0000000000000000000245 /* SharedState.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A00000000000000000000E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A0000000000000000000301 /* PacketTunnelProvider.swift in Sources */,
+				2A0000000000000000000302 /* PlatformInterface.swift in Sources */,
+				2A0000000000000000000303 /* RunBlocking.swift in Sources */,
+				2A0000000000000000000304 /* AppGroup.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A00000000000000000000E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A0000000000000000000340 /* HysteriaWidgetBundle.swift in Sources */,
+				2A0000000000000000000341 /* HysteriaWidget.swift in Sources */,
+				2A0000000000000000000342 /* VPNIntents.swift in Sources */,
+				2A0000000000000000000345 /* SharedState.swift in Sources */,
+				2A0000000000000000000346 /* AppGroup.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A00000000000000000000DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A00000000000000000000C2 /* HysteriaTunnel */;
+			targetProxy = 2A00000000000000000000DB /* PBXContainerItemProxy */;
+		};
+		2A00000000000000000000DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A00000000000000000000C3 /* HysteriaWidgetExtension */;
+			targetProxy = 2A00000000000000000000DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2A00000000000000000000A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2A00000000000000000000A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A00000000000000000000A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_ENTITLEMENTS = App/HysteriaManagerMobile.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Hysteria;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Scan QR codes to import hysteria connections.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.isaacclarke.HysteriaManagerMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A00000000000000000000A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_ENTITLEMENTS = App/HysteriaManagerMobile.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Hysteria;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Scan QR codes to import hysteria connections.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.isaacclarke.HysteriaManagerMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2A00000000000000000000A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"UIKit",
+				);
+				CODE_SIGN_ENTITLEMENTS = Tunnel/HysteriaTunnel.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Tunnel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.isaacclarke.HysteriaManagerMobile.tunnel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A00000000000000000000A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"UIKit",
+				);
+				CODE_SIGN_ENTITLEMENTS = Tunnel/HysteriaTunnel.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Tunnel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.isaacclarke.HysteriaManagerMobile.tunnel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2A00000000000000000000AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = Widget/HysteriaWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Widget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.isaacclarke.HysteriaManagerMobile.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A00000000000000000000AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = Widget/HysteriaWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Widget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.isaacclarke.HysteriaManagerMobile.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A00000000000000000000A0 /* Build configuration list for PBXProject "HysteriaManagerMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A00000000000000000000A1 /* Debug */,
+				2A00000000000000000000A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A00000000000000000000A3 /* Build configuration list for PBXNativeTarget "HysteriaManagerMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A00000000000000000000A4 /* Debug */,
+				2A00000000000000000000A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A00000000000000000000A6 /* Build configuration list for PBXNativeTarget "HysteriaTunnel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A00000000000000000000A7 /* Debug */,
+				2A00000000000000000000A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A00000000000000000000A9 /* Build configuration list for PBXNativeTarget "HysteriaWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A00000000000000000000AA /* Debug */,
+				2A00000000000000000000AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A0000000000000000000001 /* Project object */;
+}

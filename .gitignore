@@ -1,0 +1,41 @@
+# ── Secrets / personal config (never commit) ─────────────────────────────
+*.local.txt
+*.local.md
+*.local.json
+*.local.yaml
+my-server.*
+secrets/
+*.secret
+
+# ── Claude / assistant ───────────────────────────────────────────────────
+.claude/
+
+# ── Logs & caches ────────────────────────────────────────────────────────
+*.log
+.cache/
+
+# ── macOS ────────────────────────────────────────────────────────────────
+.DS_Store
+
+# ── Xcode / build output ─────────────────────────────────────────────────
+build/
+.build/
+DerivedData/
+*.xcuserstate
+**/xcuserdata/
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM
+*.dSYM.zip
+*.xcframework.zip
+
+# Per-user Xcode state inside projects (keep shared schemes + pbxproj)
+**/*.xcodeproj/project.xcworkspace/xcuserdata/
+**/*.xcodeproj/xcuserdata/
+
+# ── Large prebuilt engine (build it locally, don't commit ~100MB+) ───────
+HysteriaManagerMobile/Frameworks/Libbox.xcframework/
+
+# ── Bundled binaries (if you ever drop the hysteria CLI into the macOS app)
+HysteriaManager/**/hysteria
