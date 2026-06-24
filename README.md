@@ -1,4 +1,4 @@
-# hy2client — Hysteria 2 managers for macOS & iOS
+#  Hysteria 2 apps for macOS & iOS
 
 <p align="center">
   <img src="IMG_4231.PNG" alt="screenshot" height="420">
